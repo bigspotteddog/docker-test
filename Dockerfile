@@ -22,4 +22,4 @@ RUN mkdir -p /opt \
   | tar -x -C /opt \
   && ln -s /opt/jdk1.${JAVA_VERSION_MAJOR}.0_${JAVA_VERSION_MINOR} ${JAVA_HOME}
 
-RUN ${JAVA_HOME}/bin/java -version
+CMD ["${JAVA_HOME}/bin/java", "-version"]
