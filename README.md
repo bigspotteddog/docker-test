@@ -13,3 +13,5 @@ To build,
 ```
 $ docker build --rm --no-cache -t bigspotteddog/test .
 ```
+
+Something else added to the readme to test that it is automatically updated.
